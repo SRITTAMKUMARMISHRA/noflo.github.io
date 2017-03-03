@@ -1,6 +1,15 @@
 title: NoFlo
 tagline: Flow-Based Programming for JavaScript
-version: 0.8.1
+version: 0.7.8
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  auto_ids: true
+highlighter: rouge
 permalink: /:categories/:title/
 baseurl: ""
 repository:
